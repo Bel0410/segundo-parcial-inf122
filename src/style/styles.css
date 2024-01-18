@@ -1,0 +1,94 @@
+:root{
+    --black: #1B1C1F;
+    --white-gray: #F6F7F9;
+    --white: #FFFFFF;
+    --Red: #B2324A;
+    --meta: #5A5A5A;
+    --green: #117A7A;
+    --black-gray: #767E8C;
+    --green-aqua: #1C9675;
+    --sm: 16px;
+}
+
+button {
+    width: 94px;
+    height: 57px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    border-start-start-radius: 0px;
+    border-end-start-radius: 0px;
+    padding: 10px, 16px, 10px, 16px;
+    cursor: pointer;
+    font-size: var(--sm);
+    border: none;
+    background-color: var(--green-aqua);
+    color: var(--white-gray);
+}
+
+.input {
+    width: 587px;
+    height: 57px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 16px, 20px, 16px, 20px;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--white);
+    color: var(--Red);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+.caja1 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.contenedor-estado {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+p{
+    background-color: #F6F7F9;
+}
+.completas{
+    width: 334px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--white);
+    color: var(--Red);
+    border: none;
+    Padding: 10px, 16px, 10px, 16px;
+}
+.pendientes{
+    width: 334px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--white);
+    color: var(--Red);
+    border: none;
+    Padding: 10px, 16px, 10px, 16px;
+}
+.contenedor-lista {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}

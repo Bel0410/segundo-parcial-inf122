@@ -1,0 +1,68 @@
+:root{
+    --black: #1B1C1F;
+    --white-gray: #F6F7F9;
+    --white: #FFFFFF;
+    --red: #B2324A;
+    --meta: #5A5A5A;
+    --green: #117A7A;
+    --black-gray: #767E8C;
+    --green-aqua : #1C9675;
+    --sm: 16px;
+}
+.completar-meta {
+    width: 687px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    color: var(--black);
+}
+.completar-meta textarea {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    text-align: center;
+    background-color: var(--white);
+    
+}
+
+.meta {
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    text-align: center;
+}
+
+.boton {
+    width: 94px;
+    height: 57px;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    border-start-start-radius: 0px;
+    border-end-start-radius: 0px;
+    padding: 16px, 20px, 16px, 20px;
+    cursor: pointer;
+    font-size: var(--sm);
+    background-color: var(--green-aqua);
+    color: var(--white-gray);
+}
+.boton-el {
+    width: 50px;
+    height: 20px;
+    padding: 16px, 20px, 16px, 20px;
+    background-color: #F6F7F9;
+    border: none;
+    cursor: pointer;
+}
+.boton-co {
+    width: 50px;
+    height: 20px;
+    padding: 16px, 20px, 16px, 20px;
+    background-color: #F6F7F9;
+    border: none;
+    cursor: pointer;
+}
